@@ -13,3 +13,6 @@ NEWSPIDER_MODULE = 'helloscrapy.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'helloscrapy (+http://www.yourdomain.com)'
+
+DOWNLOAD_DELAY = 3
+ROBOTSTXT_OBEY = True
