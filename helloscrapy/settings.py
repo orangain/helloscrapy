@@ -16,3 +16,11 @@ NEWSPIDER_MODULE = 'helloscrapy.spiders'
 
 DOWNLOAD_DELAY = 3
 ROBOTSTXT_OBEY = True
+
+ITEM_PIPELINES = {
+    'helloscrapy.pipelines.MongoPipeline': 800,
+}
+
+# 必要に応じて
+# MONGO_URL = 'mongodb://mongohost:27017/'
+# MONGO_DATABASE = 'news'
