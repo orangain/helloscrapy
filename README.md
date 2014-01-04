@@ -1,7 +1,9 @@
 helloscrapy
 ===========
 
-Sample spiders
+Scrapy example spiders.
+
+An example to save into MongoDB is available in the `mongo` branch.
 
 Requirements
 ------------
@@ -23,6 +25,11 @@ Usage
 -----
 
 ```
-scrapy crawl bbc # a sample of SitemapSpider
-scrapy crawl cnet # a sample of CrawlSpider
+scrapy crawl bbc # an example of SitemapSpider
+scrapy crawl cnet # an example of CrawlSpider
 ```
+
+See (Japanese)
+--------------
+
+http://orangain.hatenablog.com/entry/scrapy
