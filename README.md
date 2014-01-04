@@ -1,0 +1,4 @@
+helloscrapy
+===========
+
+Sample spiders
